@@ -1,0 +1,652 @@
+.header__continer{
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 140px 20px 130px;
+    list-style-type: none;
+    background: #163A24;
+    margin: 0;
+    
+}
+.header__img{
+    margin-right: 676px;
+}
+.header__link-one{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight:normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    margin-right: 24px;
+    text-decoration: none;
+    color: #FBFAF7;
+}
+.header__link-two{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight:400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    margin-right: 24px;
+    text-decoration: none;
+    color: #FBFAF7;
+}
+.header__link-three{
+    width: 141px;
+    height: 52px;
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    background: #198C36;
+    border-radius: 160px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #FBFAF7;
+}
+.main__continer{
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+    align-items: center;
+    background: #163A24;
+    width: 1440px;
+}
+.section__title{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    margin-left: 130px;
+    margin-right: 101px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #FBFAF7;
+}
+.section__discription{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 130px;
+    color: #FBFAF7;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-right: 17px;
+}
+.section__img{
+    width: 730px;
+    margin-right: 80px;
+}
+.card__item{
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+.card__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__img-one{
+    Width:492px;
+    Height:510px;
+    margin-right: 98px;
+    margin-top: 120px;
+}
+.card__title-one{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 27px;
+    color: #163A24;
+}
+.card__discription-one{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+.card__title-two{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 27px;
+    margin-top: 0;
+    color: #163A24;
+}
+.card__discription-two{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin: 0;
+}
+.card__img-two{
+    Width:492px;
+    Height:423px;
+    margin-left: 112px;
+}
+.wrapper{
+    text-align: center;
+    margin-bottom: 121px;
+}
+.wrapper__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 119px;
+    color: #163A24;
+}
+.wrapper__items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper__item{
+    margin-right: 86px;
+}
+.wrapper__img{
+    width: 110px;
+}
+.production{
+    padding: 66px 198px 139px 179px;
+    background: #163A24;
+    text-align: center;
+}
+.production__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-bottom: 67px;
+    
+}
+.production__items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.production__item:nth-child(2){
+    margin-right: 102px;
+    margin-left: 98px;
+}
+.production__item:nth-child(4){
+    margin-left: 120px;
+}
+.production__discription{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 28px;
+    color: #FBFAF7;
+}
+.page{
+    background: #F2EFE6;
+    padding:114px 130px 135px 130px;
+}
+.page__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    margin: 0;
+    color: #163A24;
+}
+.page__discription{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: #163A24;
+    
+}
+.focus{
+    padding: 180px 228px 118px 228px;
+}
+.focus__items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+.focus__title{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    margin: 0;
+    color: #163A24;
+}
+.focus__discription{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-top: 27px;
+    margin-right: 113px;
+    margin-bottom: 0;
+}
+.consider__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+    margin-bottom: 26px;
+    margin-top: 118px;
+    
+}
+.consider__word{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    color: #163A24;
+    
+}
+.consider__discription{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+    margin-top: 0;
+    
+}
+.consider__items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.consider__item{
+    width: 267px;
+    height: 362px;
+    margin-right: 40px;
+    background: #FBFAF7;
+    box-shadow: 5px 5px 20px #E9E4D5;
+    border-radius: 15px;
+    padding: 50px 28px 66px 40px;
+}
+.consider__item:nth-child(2){
+    width: 240px;
+    height: 397px;
+    margin-top: 18px;
+}
+.consider__item:nth-child(3){
+    margin-right: 0;
+}
+.consider__text{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163A24;
+    margin-bottom: 15px;
+    margin-top: 0;
+    align-items: center;
+}
+.consider__img{
+    margin-bottom: 20px;
+}
+.consider__ellipse{
+    margin-right: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.intro{
+    height: 478px;
+    text-align: center;
+    padding: 114px 182px 124px 130px ;
+}
+.intro__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    text-align: center;
+    
+    color: #163A24;
+    
+}
+.intro__discription{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 26px;
+    
+    color: #163A24;
+    
+}
+.intro__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    
+    margin-bottom: 23px;
+}
+.intro__item{
+    margin-right: 27px;
+}
+.intro__item:nth-child(5){
+    margin-right: 0;
+}
+.intro__link{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FBFAF7;
+    background: #198C36;
+    border-radius: 160px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.download{
+    background: #E5E5E5;
+    padding: 120px 228px 123px 228px;
+}
+.download__items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.download__title{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin: 0;
+}
+.download__discription{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+.download__link{
+    width: 191px;
+    height: 52px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    background: #198C36;
+    border-radius: 160px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.download__item:nth-child(2){
+    margin-left: 132px;
+}
+.discovery{
+    height: 415px;
+    background: #163A24;
+}
+.discovery__items{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.discovery__item:nth-child(1){
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.discovery__item:nth-child(2){
+    margin-right: 165px;
+    margin-left: 146px;
+}
+.discovery__item:nth-child(3){
+    margin-top: 20px;
+}
+.discovery__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    margin: 0;
+    color: #FBFAF7;
+}
+.discovery__discription{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FBFAF7;
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+.discovery__link{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background: #FAB5A0;
+    border-radius: 160px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.rectangle{
+    padding: 54px 130px 73px 130px;
+    background: #F2EFE6;
+}
+.rectangle__items{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.rectangle__item:nth-child(1){
+    margin-right: 248px;
+}
+.rectangle__title{
+    font-family:" Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+    margin-top: 0;
+    margin-bottom: 26px;
+    padding: 0;
+}
+.rectangle__discription{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin: 0;
+}
+.rectangle__text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+    color: #198C36;
+}
+.rectangle__link-one{
+    background: #FFFFFF;
+    border: 1px solid #F2EFE6;
+    box-sizing: border-box;
+    border-radius: 255px;
+}
+.rectangle__link-two{
+    font-family:" Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 15px 25px;
+    color: #FBFAF7;
+    background: #15762E;
+    border-radius: 160px;
+    margin-left: 479px;
+    margin-bottom: 13px;
+}
+.display{
+    background: #F2EFE6;
+}
+.display__items{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 41px 130px;
+}
+.display__item{
+    margin-right: 14px;
+}
+.display__item:nth-child(1){
+    margin-right: 377px;
+}
+.display__title{
+    font-family: "Recoleta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+    color: #163A24;
+}
+.display__item:nth-child(2){
+    margin-right: 311px;
+}
+.display__item:nth-child(6){
+    margin-right: 0px;
+}
+.footer__continer{
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.footer__items{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding:24px 130px;
+}
+.footer__item{
+    margin-right: 14px;
+}
+.footer__item:nth-child(1){
+    margin-right: 0;
+}
+.footer__item:nth-child(6){
+    margin-right: 0;
+}
+.footer__discription{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+    margin-right: 315px;
+}
+.footer__link{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    text-decoration: none;
+    color: #198C36;
+    
+}
