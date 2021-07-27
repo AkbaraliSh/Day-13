@@ -461,24 +461,13 @@
 .discovery{
     height: 415px;
     background: #163A24;
+    background-image: url(../img/Frame13.png),url(../img/Frame14.png);
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+
 }
-.discovery__items{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.discovery__item:nth-child(1){
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-.discovery__item:nth-child(2){
-    margin-right: 165px;
-    margin-left: 146px;
-}
-.discovery__item:nth-child(3){
-    margin-top: 20px;
+.discovery__div{
+    text-align: center;
 }
 .discovery__title{
     font-family:" Recoleta";
@@ -489,6 +478,7 @@
     text-align: center;
     margin: 0;
     color: #FBFAF7;
+    padding-top: 114px;
 }
 .discovery__discription{
     font-family: "Noto Sans";
@@ -508,10 +498,12 @@
     font-size: 18px;
     line-height: 27px;
     text-align: center;
+    display: inline-block;
     background: #FAB5A0;
     border-radius: 160px;
     padding: 15px 25px;
     text-decoration: none;
+    margin-bottom: 124px;
 }
 .rectangle{
     padding: 54px 130px 73px 130px;
