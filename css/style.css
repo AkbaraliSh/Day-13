@@ -547,7 +547,7 @@
     color: #163A24;
     margin: 0;
 }
-.rectangle__text{
+.rectangle__link{
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: normal;
@@ -556,6 +556,7 @@
     margin: 0;
     padding: 0;
     color: #198C36;
+    text-decoration: none;
 }
 .rectangle__link-one{
     background: #FFFFFF;
